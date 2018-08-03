@@ -1,3 +1,4 @@
+<!--V1.1-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,8 +13,9 @@
 <fieldset>
 <!--Billing Address Section-->
    	<legend>Billing Address</legend>
-		First name <input type = "text" name ="firstname" required><br>		
-		Street <input type = "text" name ="StreetAddress" required><br>
+		First name <input type = "text" name ="firstname" required><br>	
+		Last name <input type = "text" name ="lastname" required><br>	
+		Street Address <input type = "text" name ="StreetAddress" required><br>
 		City <input type = "text" name ="City" required><br>
 		State 
 	<select name="state" id="state">
@@ -76,9 +78,9 @@
 <!--Payment Section-->
 	<legend>Payment</legend>
 		<input type="radio" name="PaymentType" value="Visa" checked = "checked"> Visa
+  		<input type="radio" name="PaymentType" value="Discover"> Discover 
   		<input type="radio" name="PaymentType" value="Master Card"> Master Card
-		<input type="radio" name="PaymentType" value="Discover"> Discover 
-  		<input type="radio" name="PaymentType" value="American Express"> American Express <br>
+ 		<input type="radio" name="PaymentType" value="American Express"> American Express <br>
 		Card # <input type = "text" name ="CardNumber" required><br>	
 		Expiration 
 		<!--Expiration Month-->
