@@ -1,4 +1,4 @@
-<!--V2.0-->
+<!--V2.1-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,8 +18,8 @@
 		Street Address <input type = "text" name ="StreetAddress" required><br>
 		City <input type = "text" name ="City" required><br>
 		State 
-	<select name="state" id="state">
-	  <option value="" selected="selected">Select a State</option>
+	<select name="state" id="state" required>
+	  <option value="" selected="selected"></option>
 	  <option value="AL">AL</option>
 	  <option value="AK">AK</option>
 	  <option value="AZ">AZ</option>
@@ -111,11 +111,11 @@
 <br>
 <fieldset>
 <!--Create Account Section-->
-	<legend></legend>
+	<legend>Create Account?</legend>
 		To be able to access your purchase history and make changes to your profile, please Sign Up below. It's as easy as 1, 2, 3.<br><br>
-		Username: <input type="text" name="username" required><br>
-  		Password: <input type="password" name="Password" required><br>
-		Password (verify): <input type="password" name="PasswordVerify" required>
+		Username <input type="text" name="username" required><br>
+  		Password <input type="password" name="Password" required><br>
+		Password (verify) <input type="password" name="PasswordVerify" required>
 </fieldset>
 <br>
 <!--Click to submit the form upon completion-->
